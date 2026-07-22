@@ -1,6 +1,5 @@
 🏭 IndusMind AI
 AI-Powered Industrial Knowledge Intelligence Platform
-
 IndusMind AI is an AI-powered platform that transforms scattered engineering documents, maintenance records, SOPs, inspection reports, and operational data into a unified, searchable knowledge ecosystem using Retrieval-Augmented Generation (RAG), Knowledge Graphs, OCR, and Agentic AI.
 
 📖 Overview
@@ -15,7 +14,7 @@ IndusMind AI centralizes enterprise knowledge into a single intelligent platform
 🔗 Knowledge Graph generation
 🤖 AI-powered Industrial Copilot
 📚 Retrieval-Augmented Generation (RAG)
-⚙ Predictive Maintenance insights
+⚙️ Predictive Maintenance insights
 📋 Compliance Intelligence
 📊 Executive Analytics Dashboard
 🔐 Secure JWT Authentication & Role-Based Access Control
@@ -44,7 +43,7 @@ Industrial Documents
  AI Industrial Copilot
         │
  ┌──────────────┬──────────────┬──────────────┐
- │ Maintenance │ Compliance   │ Analytics    │
+ │ Maintenance  │ Compliance   │ Analytics    │
  └──────────────┴──────────────┴──────────────┘
 🛠 Technology Stack
 Frontend
@@ -106,10 +105,11 @@ Predictive Maintenance	Equipment health analysis
 Analytics	Operational insights and dashboards
 🚀 Getting Started
 Clone the Repository
+bash
 git clone https://github.com/<your-username>/indusmind-ai.git
-
 cd indusmind-ai
 Backend Setup
+bash
 python -m venv .venv
 
 # Windows
@@ -122,10 +122,9 @@ pip install -r requirements.txt
 
 uvicorn app.main:app --reload
 Frontend Setup
+bash
 cd frontend
-
 npm install
-
 npm run dev
 📖 API Documentation
 After starting the backend:
@@ -150,3 +149,5 @@ Secure Middleware
 CORS Configuration
 📄 License
 This project is licensed under the MIT License.
+
+
