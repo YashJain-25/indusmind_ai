@@ -1,0 +1,6 @@
+{
+  "name": "IndusMind AI",
+  "description": "Unified Industrial Knowledge Intelligence Platform with AI Agents, Knowledge Graph, Equipment Digital Twins, and Predictive Maintenance.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
