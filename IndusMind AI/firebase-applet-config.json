@@ -1,12 +1,23 @@
-{
-  "projectId": "dharohar-491610",
-  "appId": "1:201950477824:web:1c24ad89427ac6249e62e5",
-  "apiKey": "AIzaSyBHTwlh-2--MBpnTrkRiNUHBtiZgzugJew",
-  "authDomain": "dharohar-491610.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-forgemindai-933efb9a-7389-43ee-b81d-61a81383f9d6",
-  "storageBucket": "dharohar-491610.firebasestorage.app",
-  "messagingSenderId": "201950477824",
-  "measurementId": "",
-  "oAuthClientId": "201950477824-0fv09pdlqvktplml9h87lman7gefetlm.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
-}
+// src/firebase.js
+
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBHTwlh-2--MBpnTrkRiNUHBtiZgzugJew",
+  authDomain: "dharohar-491610.firebaseapp.com",
+  projectId: "dharohar-491610",
+  storageBucket: "dharohar-491610.firebasestorage.app",
+  messagingSenderId: "201950477824",
+  appId: "1:201950477824:web:1c24ad89427ac6249e62e5e",
+};
+
+const app = initializeApp(firebaseConfig);
+
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
+
+export default app;
